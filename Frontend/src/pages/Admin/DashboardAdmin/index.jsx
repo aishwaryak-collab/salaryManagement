@@ -3,6 +3,7 @@ import DefaultLayoutAdmin from '../../../layout/DefaultLayoutAdmin';
 import { CardOne, CardTwo, CardThree, CardFour, ChartOne, ChartTwo, BreadcrumbAdmin } from '../../../components';
 
 const DashboardAdmin = () => {
+  console.log("data");
   return (
     <DefaultLayoutAdmin>
       <BreadcrumbAdmin pageName='Dashboard' />
